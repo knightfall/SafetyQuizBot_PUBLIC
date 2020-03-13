@@ -1,0 +1,36 @@
+message "queryResult" {
+  required string responseId = 0
+
+  message QUERYRESULT {
+    required string queryText = 0
+
+    message PARAMETERS {
+      repeated string alpha = 0
+    }
+
+    required PARAMETERS parameters = 1
+    required bool allRequiredParamsPresent = 2
+
+    message FULFILLMENTMESSAGES {
+
+      message TEXT {
+        repeated string text = 0
+      }
+
+      required TEXT text = 0
+    }
+
+    repeated FULFILLMENTMESSAGES fulfillmentMessages = 3
+
+    message INTENT {
+      required string name = 0
+      required string displayName = 1
+    }
+
+    required INTENT intent = 4
+    required double intentDetectionConfidence = 5
+    required string languageCode = 6
+  }
+
+  required QUERYRESULT queryResult = 1
+}

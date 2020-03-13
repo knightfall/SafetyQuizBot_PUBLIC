@@ -1,0 +1,91 @@
+{"Questions":[{
+    "Question": "Question 1. In the case of a building evacuation at any time, including after hours, what do you do when you hear the whoop whoop alarm or the voice instructing us to vacate the building because of an emergency?",
+    "Responses": [
+        {"Title":"A","ID":"A0", "Option":"Finish eating my dinner", "Feedback":"You are in danger", "emoji":"🚨☠️", "corr":"rec"},
+        {"Title":"B","ID":"B0", "Option":"Grab my things and leave the building in a safe and orderly fashion as per evacuation procedure", "Feedback":"Well done you are safe", "emoji":"👍", "corr":"no"},
+        {"Title":"C","ID":"C0", "Option":"Carry on with what I am doing", "Feedback":"You are in serious danger you could sustain burns or inhale noxious gasses", "emoji":"🚨☠️", "corr":"rec"},
+        {"Title":"D","ID":"D0", "Option":"Tell others around me that it is only a drill and not to leave the building", "Feedback":"You are in danger", "emoji":"🚨☠️", "corr":"rec"}
+                ],
+                "Correct": "Well done you are safe",
+    "TrueValues": ["B0"],
+    "True": ["B"],
+    "Limit": 4
+}, {
+    "Question": "Question 2. You are vacating the faculty because of an evacuation. Which are suitable actions to take? You……",
+    "Responses":  [
+        {"Title":"A","ID":"A1", "Option":"Take the lift to level 2 to exit the building", "Feedback":"The lift well is consumed by flames  - you may sustain injury and burns", "emoji":"🚨🔥", "corr":"rec"},
+        {"Title":"B","ID":"B1", "Option":"Walk across the connecting bridge between CB11 & CB10 and use the lift there to exit CB10", "Feedback":"Well done you are safe.","emoji":"👏","corr":"alt"},
+        {"Title":"C","ID":"C1", "Option":"Walk down the central stairwell as these stairs are closest to me to reach level 2", "Feedback":"The central stairwell is a funnel and could easily be consumed by flames  - you are in danger of sustaining burns", "emoji":"🚨🔥", "corr":"rec"},
+        {"Title":"D","ID":"D1", "Option":"Use the fire escape to exit the building in Jones Street and head to the assembly point opposite Tafe ", "Feedback":"Well done you are safe.\n", "emoji":"👍","corr":"alt"}
+                ],    
+                "Correct": "Well done you are safe",       
+    "TrueValues": ["B1","D1"],
+    "True":["B","D"],
+    "Limit": 4
+}, {
+    "Question": "Question 3. Where is the assembly point if there is a faculty evacuation?",
+    "Responses":  [
+        {"Title":"A","ID":"A2", "Option":"In the lobby of CB11", "Feedback":"You are still in danger", "emoji":"🚨☠️", "corr":"rec"},
+        {"Title":"B","ID":"B2", "Option":"Outside the door of CB11 on Broadway", "Feedback":"You are still in danger","emoji":"🚨☠️", "corr":"rec"},
+        {"Title":"C","ID":"C2", "Option":"Once you have used the fire escape or connecting bridge to CB10 and reached level 2, exit the building and walk up Jones Street and assemble outside TAFE", "Feedback":"Well done you and your colleagues are safe", "emoji":"👏", "corr":"no"},
+        {"Title":"D","ID":"D2", "Option":"In Penny Lane to have a coffee while everything is going on", "Feedback":"You are still in danger", "emoji":"🚨☠️", "corr":"rec"}
+                ],
+                "Correct": "Well done you are safe",
+    "TrueValues": ["C2"],
+    "True":["C"],
+    "Limit": 4
+},  {
+    "Question": "Question 4. If you require first aid assistance for something minor (like a paper cut, headache), what do you do?",
+    "Responses":  [
+        {"Title":"A","ID":"A3", "Option":"Call 000", "Feedback":"This is not a correct answer.", "emoji":"🚨", "corr":"rec"},
+        {"Title":"B","ID":"B3", "Option":"Look at one of the many posters around the faculty to see who my 1st aiders are and contact one for assistance if required ", "Feedback":"Well done. Good thinking","emoji":"👏", "corr":"alt"},
+        {"Title":"C","ID":"C3", "Option":"Ask a security guard for help", "Feedback":"This is an incorrect answer", "emoji":"🚨", "corr":"rec"},
+        {"Title":"D","ID":"D3", "Option":"Find the faculty first aid box to see if what you need is there to assist yourself", "Feedback":"Well done. You are safe.", "emoji":"👍", "corr":"no"}
+                ],
+                "Correct": "Well done. Good thinking",
+    "TrueValues": ["B3","D3"],
+    "True":["B","D"],
+    "Limit": 4
+}, {
+    "Question": "Question 5. What are some example of a real emergency?",
+    "Responses":  [
+        {"Title":"A","ID":"A4", "Option":"Someone suffers a minor cut on the finger", "Feedback":"This is not an emergency", "emoji":"☹","corr":"rec"},
+        {"Title":"B","ID":"B4", "Option":"Someone loses consciousness", "Feedback":"This is a real emergency & someone is in need","emoji":"👍","corr":"no"},
+        {"Title":"C","ID":"C4", "Option":"Someone raises their voice", "Feedback":"This is not an emergency","emoji":"☹","corr":"rec"},
+        {"Title":"D","ID":"D4", "Option":"Someone is behaving aggressively or violently, or you observe threatening, violent or aggressive behaviour", "Feedback":"It is appropriate to call 6 on a nearby phone if your feel people are in real danger","emoji":"👏","corr":"alt"},
+        {"Title":"E","ID":"E4", "Option":"There is smoke coming out of a room", "Feedback":"This could be a real emergency so you should call 6 on the nearest phone without entering the smoke-filled the room","emoji":"👍","corr":"alt"},
+        {"Title":"F","ID":"F4", "Option":"There is a small fire smouldering in a rubbish bin ", "Feedback":"Well, fire extinguishers may be found all around campus & could be used to put out a small fire, but you should still alert security, and you should not put yourself at risk in any way","emoji":"🧐","corr":"alt"}
+                ],
+                "Correct": "Well done - all correct",
+    "TrueValues": ["B4","D4","E4","F4"],
+    "True":["B","D","E","F"],
+    "Limit": 6
+}, {
+    "Question": "Question 6. Can anyone in the faculty access 1st aid boxes?",
+    "Responses":  [
+        {"Title":"A","ID":"A5", "Option":"Yes", "Feedback":"Yes, 1st aid boxes are unlocked and accessible to anyone in the faculty", "emoji":"👏","corr":"no"},
+        {"Title":"B","ID":"B5", "Option":"No", "Feedback":"I think you have the wrong idea. 1st aid boxes are unlocked and accessible to anyone in the faculty.","emoji":"🚨","corr":"no"}
+                ],     
+                "Correct": "Yes, 1st aid boxes are unlocked and accessible to anyone in the faculty",         
+    "TrueValues": ["A5"],
+    "True":["A"],
+    "Limit": 2
+}, {
+    "Question": "Question 7. Select all of the correct steps in the case of a REAL emergency ",
+    "Responses":  [
+        {"Title":"A","ID":"A6", "Option":"Call 6 on any faculty phone – there are phones in most areas of the faculty", "Feedback":"Good choice to call 6 for emergency", "emoji":"👍","corr":"alt"},
+        {"Title":"B","ID":"B6", "Option":"Call a security guard if one is visible", "Feedback":"If you are not near a faculty phone and there is a campus security guard around, this is a good course of action","emoji":"👏","corr":"alt"},
+      {
+        "Title": "C","ID": "C6","Option": "Find a 1st aider if during working hours or faculty professional staff","Feedback": "Good thinking - faculty staff or 1st aiders will know what to do to assist","emoji": "👍","corr": "alt"},
+        {"Title":"D","ID":"D6", "Option":"Call 000", "Feedback":"While 000 may be used for emergencies in Australia, on campus you are better off to dial 6 and you be asked to describe the emergency", "emoji":"⚠️","corr":"rec"},
+{"Title":"E","ID":"E6", "Option":"Administer 1st aid myself", "Feedback":"You are not permitted to administer 1st aid unless you are a certified 1st aider", "emoji":"⚠️🚨","corr":"rec"},
+{"Title":"F","ID":"F6", "Option":"Walk away and do nothing because you assume others will do what is required", "Feedback":"If no one else is around and doing something about it please call 6 on any faculty phone – there are phones in most areas of the faculty or Call a security guard if one is visible", "emoji":"🚨☹","corr":"rec"},
+{"Title":"G","ID":"G6", "Option":"If first aiders or campus security are on hand, walk away to give them room to do what is required", "Feedback":"good choice - if a situation is being dealt with by security or staff it is best to walk away and leave trained personnel to appropriately deal with the matter", "emoji":"👍","corr":"alt"}
+                ],
+                "Correct": "Well done - all correct",
+    "TrueValues": ["A6","B6","C6","G6"],
+    "True":["A","B","C","G"],
+    "Limit":7
+}
+]
+}
